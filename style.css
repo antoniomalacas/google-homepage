@@ -1,4 +1,121 @@
-p {
-    position: right;
-    color: blueviolet;
+ul, li {
+    list-style-type: none; 
+}
+
+.signIn {
+    color: white;
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    position: absolute;
+    left: 1750px;
+    top: 10px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    padding: 0 12px;
+    line-height: 32px;
+}
+
+
+#about {
+    float: left;
+}
+
+.store {
+    position: absolute;
+    left: 125px;
+}
+
+#images {
+    position: absolute;
+    left: 1575px;
+}
+
+#gmail {
+    position: absolute;
+    left: 1500px;
+}
+
+#options {
+    position: absolute;
+    left: 1675px;
+    opacity: 0.5;
+}
+
+
+.google_logo {
+    position: absolute;
+    left: 750px;
+    top: 200px;
+}
+
+
+form {
+    position: absolute;
+    left: 650px;
+    top: 415px;
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.googlesearch {
+    position: absolute;
+    left: 775px;
+    top: 470px;
+    background-color: #f2f2f2;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+}
+
+.imfeelinglucky {
+    position: absolute;
+    left: 920px;
+    top: 470px;
+    background-color: #f2f2f2;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+}
+
+.fbar {
+    position: fixed;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    color: #666;
+    width: 1900px;
+    height: 50px;
+}
+
+#advertising {
+    position: absolute;
+    bottom: 12px;
+    left: 0px;
+}
+
+#business {
+    position: absolute;
+    bottom: 12px;
+    left: 125px;   
+}
+
+#privacy {
+    position: absolute;
+    bottom: 12px;
+    left: 1575px;
+}
+
+#terms {
+    position: absolute;
+    bottom: 12px;
+    left: 1670px;
+}
+
+#settings {
+    position: absolute;
+    bottom: 12px;
+    left: 1775px;
 }
